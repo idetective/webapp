@@ -11,7 +11,7 @@
       "PACKAGE_NAME": "com.phonegap.helloworld"
     },
     "cordova-plugin-firebase": {
-      "PACKAGE_NAME": "com.phonegap.helloworld"
+      "PACKAGE_NAME": "app.tochka.yapoisk.com"
     }
   },
   "dependent_plugins": {},
