@@ -29,7 +29,8 @@ module.exports.metadata =
 {
     "cordova-plugin-inappbrowser": "3.1.0",
     "cordova-plugin-firebase": "2.0.5",
-    "cordova-android-firebase-gradle-release": "4.0.0"
+    "cordova-android-firebase-gradle-release": "4.0.0",
+    "cordova-android-play-services-gradle-release": "4.0.0"
 }
 // BOTTOM OF METADATA
 });
