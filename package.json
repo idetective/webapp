@@ -8,7 +8,6 @@
     ],
     "plugins": {
       "cordova-plugin-inappbrowser": {},
-      "cordova-plugin-firebase": {},
       "cordova-android-firebase-gradle-release": {
         "FIREBASE-CORE": "17.0.0",
         "FIREBASE-ADS": "18.0.0",
@@ -99,7 +98,6 @@
     "cordova-android": "~7.1.4",
     "cordova-android-firebase-gradle-release": "4.0.0",
     "cordova-android-play-services-gradle-release": "4.0.0",
-    "cordova-plugin-firebase": "~2.0.5",
     "cordova-plugin-inappbrowser": "~3.1.0"
   }
 }

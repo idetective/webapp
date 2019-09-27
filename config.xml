@@ -57,7 +57,6 @@
     </platform>
     <engine name="android" spec="~7.1.4" />
     <plugin name="cordova-plugin-inappbrowser" spec="~3.1.0" />
-    <plugin name="cordova-plugin-firebase" spec="~2.0.5" />
     <plugin name="cordova-android-firebase-gradle-release" spec="4.0.0">
         <variable name="FIREBASE-CORE" value="17.0.0" />
         <variable name="FIREBASE-ADS" value="18.0.0" />
