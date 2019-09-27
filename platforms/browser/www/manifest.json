@@ -1,11 +1,10 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "АЯК",
-  "short_name": "АЯК",
-  "version": "com.phonegap.helloworld",
-  "description": "A blank PhoneGap app.",
-  "author": "PhoneGap Team",
+  "name": "ТОЧКА",
+  "short_name": "ТОЧКА",
+  "version": "app.tochka.yapoisk.com",
+  "description": "Доска бесплатных объявлений",
   "icons": [],
   "start_url": "index.html"
 }

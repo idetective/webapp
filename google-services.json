@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "802378194844",
+    "firebase_url": "https://push-demo-9ff9a.firebaseio.com",
+    "project_id": "push-demo-9ff9a",
+    "storage_bucket": "push-demo-9ff9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802378194844:android:680200856b2583576ff259",
+        "android_client_info": {
+          "package_name": "app.tochka.yapoisk.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802378194844-3vorpi4m1s0l6as092kbqlpvagqcodmm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrZfmZzYgo4HpmQZFv_hAO7j2tN3wYM2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802378194844-3vorpi4m1s0l6as092kbqlpvagqcodmm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
