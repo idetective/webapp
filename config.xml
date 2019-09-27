@@ -7,10 +7,16 @@
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
     </author>
-    <preference name="phonegap-version" value="cli-7.1.0" />
+    <preference name="phonegap-version" value="cli-8.0.0" />
     <preference name="pgb-builder-version" value="2" />
     <content src="index.html" />
     <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+	<allow-intent href="geo:*" />
     <platform name="ios">
         <icon height="1024" src="res/icon/ios/icon-1024.png" width="1024" />
         <icon height="29" src="res/icon/ios/icon-small.png" width="29" />
@@ -56,7 +62,8 @@
         <splash density="port-xxxhdpi" src="res/screen/android/splash-port-xxxhdpi.png" />
     </platform>
     <platform name="android">
-  <resource-file src="google-services.json" target="google-services.json" />
+        <allow-intent href="market:*" />
+		<resource-file src="google-services.json" target="app/google-services.json" />
 </platform>
     <plugin name="cordova-plugin-inappbrowser" spec="~3.1.0" />
     <plugin name="phonegap-plugin-push" spec="~2.3.0" />
