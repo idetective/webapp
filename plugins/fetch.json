@@ -23,10 +23,10 @@
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-firebase": {
+  "cordova-plugin-firebase-lib": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-firebase"
+      "id": "cordova-plugin-firebase-lib"
     },
     "is_top_level": true,
     "variables": {}
