@@ -9,9 +9,6 @@
   "installed_plugins": {
     "cordova-plugin-inappbrowser": {
       "PACKAGE_NAME": "app.tochka.yapoisk.com"
-    },
-    "phonegap-plugin-push": {
-      "PACKAGE_NAME": "app.tochka.yapoisk.com"
     }
   },
   "dependent_plugins": {}
