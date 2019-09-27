@@ -54,7 +54,7 @@
         <splash density="port-xhdpi" src="res/screen/android/splash-port-xhdpi.png" />
         <splash density="port-xxhdpi" src="res/screen/android/splash-port-xxhdpi.png" />
         <splash density="port-xxxhdpi" src="res/screen/android/splash-port-xxxhdpi.png" />
-        <resource-file src="google-services.json" target="app/google-services.json" />
+        <resource-file src="google-services.json" target="google-services.json" />
     </platform>
     <plugin name="cordova-plugin-inappbrowser" spec="~3.1.0" />
     <plugin name="cordova-plugin-fcm" spec="~2.1.2" />
