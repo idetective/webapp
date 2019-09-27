@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "802378194844",
-    "firebase_url": "https://push-demo-9ff9a.firebaseio.com",
-    "project_id": "push-demo-9ff9a",
-    "storage_bucket": "push-demo-9ff9a.appspot.com"
+    "project_number": "730804757057",
+    "firebase_url": "https://push-d5b20.firebaseio.com",
+    "project_id": "push-d5b20",
+    "storage_bucket": "push-d5b20.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:802378194844:android:680200856b2583576ff259",
+        "mobilesdk_app_id": "1:730804757057:android:81a7ae945e49e75b81dcc0",
         "android_client_info": {
           "package_name": "app.tochka.yapoisk.com"
         }
       },
       "oauth_client": [
         {
-          "client_id": "802378194844-3vorpi4m1s0l6as092kbqlpvagqcodmm.apps.googleusercontent.com",
+          "client_id": "730804757057-snh74vfgb0mvp66bn7vipvsgknt6cls8.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBrZfmZzYgo4HpmQZFv_hAO7j2tN3wYM2o"
+          "current_key": "AIzaSyAAGWONk76eWgfJ7Lk9PAOuH-ERiFBfYVU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "802378194844-3vorpi4m1s0l6as092kbqlpvagqcodmm.apps.googleusercontent.com",
+              "client_id": "730804757057-snh74vfgb0mvp66bn7vipvsgknt6cls8.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
