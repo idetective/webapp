@@ -1,21 +1,3 @@
-/*
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
- * to you under the Apache License, Version 2.0 (the
- * "License"); you may not use this file except in compliance
- * with the License.  You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied.  See the License for the
- * specific language governing permissions and limitations
- * under the License.
- */
 var app = {
     // Application Constructor
     initialize: function() {
@@ -27,6 +9,11 @@ var app = {
     // Bind any cordova events here. Common events are:
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
+        var ref = window.open('http://tochka.yapoisk.com', '_blank', 'location=no,zoom=no,toolbar=no');
+        ref.addEventListener("exit", function(){
+          console.log("exitApp");
+          navigator.app.exitApp()}
+          );
         this.receivedEvent('deviceready');
     },
 
@@ -43,14 +30,12 @@ var app = {
             }
         });
 
-        push.on('registration', function (data) {
+        /*push.on('registration', function (data) {
             console.log(data.registrationId);
             console.log(data.registrationType);
             document.getElementById("registration").appendChild(document.createTextNode(data.registrationId));
         });
-
         push.on('notification', function (data) {
-            console.log("printt")
             var ul = document.getElementById("pushList");
             var li = document.createElement("li");
             li.appendChild(document.createTextNode(data.message));
@@ -61,9 +46,8 @@ var app = {
             console.log(data.sound);
             console.log(data.image);
             console.log(data.additionalData);
-        });
+        });*/
     }
 };
 
 app.initialize();
-console.log("okkk")
