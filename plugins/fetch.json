@@ -1,16 +1,16 @@
 {
-  "cordova-plugin-firebase-lib": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-firebase-lib"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "cordova-plugin-inappbrowser": {
     "source": {
       "type": "registry",
       "id": "cordova-plugin-inappbrowser@3.1.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-fcm": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-fcm"
     },
     "is_top_level": true,
     "variables": {}
