@@ -7,6 +7,8 @@
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
     </author>
+    <preference name="phonegap-version" value="cli-7.1.0" />
+<preference name="pgb-builder-version" value="2" />
     <content src="index.html" />
     <access origin="*" />
     <platform name="ios">
