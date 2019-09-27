@@ -91,13 +91,15 @@
         "PLAY-SERVICES-VISION-IMAGE-LABEL": "18.0.0",
         "PLAY-SERVICES-WALLET": "17.0.0",
         "PLAY-SERVICES-WEARABLE": "17.0.0"
-      }
+      },
+      "cordova-plugin-firebase": {}
     }
   },
   "dependencies": {
     "cordova-android": "~7.1.4",
     "cordova-android-firebase-gradle-release": "4.0.0",
     "cordova-android-play-services-gradle-release": "4.0.0",
+    "cordova-plugin-firebase": "2.0.5",
     "cordova-plugin-inappbrowser": "~3.1.0"
   }
 }

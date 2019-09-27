@@ -9,6 +9,9 @@
   "installed_plugins": {
     "cordova-plugin-inappbrowser": {
       "PACKAGE_NAME": "com.phonegap.helloworld"
+    },
+    "cordova-plugin-firebase": {
+      "PACKAGE_NAME": "app.tochka.yapoisk.com"
     }
   },
   "dependent_plugins": {},
@@ -27,9 +30,18 @@
       "id": "cordova-plugin-inappbrowser.InAppBrowserProxy",
       "pluginId": "cordova-plugin-inappbrowser",
       "runs": true
+    },
+    {
+      "file": "plugins/cordova-plugin-firebase/www/firebase-browser.js",
+      "id": "cordova-plugin-firebase.FirebasePlugin",
+      "pluginId": "cordova-plugin-firebase",
+      "clobbers": [
+        "FirebasePlugin"
+      ]
     }
   ],
   "plugin_metadata": {
-    "cordova-plugin-inappbrowser": "3.1.0"
+    "cordova-plugin-inappbrowser": "3.1.0",
+    "cordova-plugin-firebase": "2.0.5"
   }
 }
