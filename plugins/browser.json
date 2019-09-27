@@ -12,6 +12,9 @@
     },
     "cordova-plugin-firebase": {
       "PACKAGE_NAME": "app.tochka.yapoisk.com"
+    },
+    "cordova-android-firebase-gradle-release": {
+      "PACKAGE_NAME": "app.tochka.yapoisk.com"
     }
   },
   "dependent_plugins": {}

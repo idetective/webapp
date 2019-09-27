@@ -92,6 +92,7 @@ ext {
 
 // PLUGIN GRADLE EXTENSIONS START
 apply from: "../cordova-plugin-firebase/com-build.gradle"
+apply from: "../cordova-android-firebase-gradle-release/com-cordova-android-firebase-gradle-release.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras1 = file('build-extras.gradle').exists()
