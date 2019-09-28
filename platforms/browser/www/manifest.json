@@ -1,10 +1,10 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "ТОЧКА",
-  "short_name": "ТОЧКА",
-  "version": "app.tochka.yapoisk.com",
-  "description": "Доска бесплатных объявлений",
+  "name": "Кроссовочки.ру",
+  "short_name": "Кроссовочки.ру",
+  "version": "app.crossovochki.ru",
+  "description": "Онлайн магазин Кроссовочки.ру",
   "author": "PhoneGap Team",
   "icons": [],
   "start_url": "index.html"

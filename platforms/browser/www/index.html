@@ -3,10 +3,19 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-        <title>ТОЧКА</title>
+        <title>Кроссовочки.ру</title>
     </head>
     <body>
         <script type="text/javascript" src="cordova.js"></script>
-       	<script type="text/javascript" src="index.js"></script>
+       	<script type="text/javascript">
+       	document.addEventListener("deviceready", onDeviceReady, false);
+       	function onDeviceReady(){
+       	var ref = window.open('https://crossovochki.ru/', '_blank', 'location=no,zoom=no,toolbar=no');
+        ref.addEventListener("exit", function(){
+          console.log("exitApp");
+          navigator.app.exitApp()}
+          );
+    	};
+       	</script>
     </body>
 </html>

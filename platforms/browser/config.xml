@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="app.tochka.yapoisk.com" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>ТОЧКА</name>
+<widget id="app.crossovochki.ru" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Кроссовочки.ру</name>
     <description>
-        Доска бесплатных объявлений
+        Онлайн магазин Кроссовочки.ру
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
@@ -15,6 +15,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <preference name="android-targetSdkVersion" value="28" />
     <preference name="phonegap-version" value="cli-8.0.0" />
     <preference name="pgb-builder-version" value="2" />
 </widget>
