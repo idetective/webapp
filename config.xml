@@ -7,6 +7,8 @@
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
     </author>
+
+    <preference name="android-targetSdkVersion" value="28" />
     <preference name="phonegap-version" value="cli-8.0.0" />
     <preference name="pgb-builder-version" value="2" />
     <content src="index.html" />
