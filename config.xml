@@ -71,8 +71,15 @@ xmlns:cdv="http://cordova.apache.org/ns/1.0">
      <platform name="android">
   <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
       <application android:usesCleartextTraffic="true" />
-      <domain-config cleartextTrafficPermitted="true">
+      <domain-config cleartextTrafficPermitted="true"> 
+        <domain includeSubdomains="true">yapoisk.com</domain>
+        </domain-config> 
   </edit-config>
+    <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
+  <domain-config cleartextTrafficPermitted="true"></domain-config>
+
+    </edit-config>
+  
 </platform>
     <plugin name="cordova-plugin-inappbrowser" spec="~3.1.0" />
 </widget>
