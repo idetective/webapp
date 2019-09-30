@@ -71,7 +71,7 @@ xmlns:cdv="http://cordova.apache.org/ns/1.0">
      <platform name="android">
   <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
       <application android:usesCleartextTraffic="true" />
-      <application usesCleartextTraffic="true" />
+      <application android:cleartextTrafficPermitted="true" />
   </edit-config>
 </platform>
     <plugin name="cordova-plugin-inappbrowser" spec="~3.1.0" />
